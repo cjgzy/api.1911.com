@@ -14,4 +14,12 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get("/wx/add","A/AddController@add");
+Route::get("/wx/add","A\AddController@add");
+Route::get('add',"TestController@add");
+Route::post("test/create","Test\TestController@create");
+Route::post("test/login","Test\TestController@login");
+Route::get('test/center',"Test\TestController@center");
+Route::post("cre","TestController@cre");
+Route::get("rsa1","TestController@rsa1");
+Route::get("sign","TestController@sign");
+
