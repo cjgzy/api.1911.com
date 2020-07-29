@@ -22,4 +22,5 @@ Route::get('test/center',"Test\TestController@center");
 Route::post("cre","TestController@cre");
 Route::get("rsa1","TestController@rsa1");
 Route::get("sign","TestController@sign");
-
+Route::get("goods","TestController@goods");
+Route::get("goodslist","TestController@goodslist");
